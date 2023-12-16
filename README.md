@@ -16,7 +16,11 @@ This Android application leverages the ChatGPT API to enhance the user experienc
 
 ## Screenshots
 
-Include screenshots or GIFs showcasing the main features and UI of your application.
+![image](https://github.com/Shailyarajsinh/Food-Recipe-App/assets/129893486/a1a34954-0bb5-4647-b9a4-9f3efe7c8ac9)
+
+![image](https://github.com/Shailyarajsinh/Food-Recipe-App/assets/129893486/3301860e-31ff-4c10-b8eb-109e0fdb423d)
+
+
 
 ## Getting Started
 
