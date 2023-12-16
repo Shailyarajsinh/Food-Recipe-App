@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#f7f7f7"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    tools:context=".FoodDetailsActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/foodimage2"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/gulab_jamun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+        <TextView
+        android:id="@+id/tittle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Gulab Jamun"
+        android:textColor="#000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foodimage2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+
+        android:text="Process"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tittle" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:inputType="textMultiLine"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:singleLine="false"
+            android:text="1 cup of Milk Powder
+        1/4 cup of All-Purpose Flour (Maida)
+        1/4 cup of Ghee (clarified butter)
+        A pinch of Baking Soda
+        2-3 tablespoons of Milk (for kneading)
+        A few drops of Rose Water (optional, for flavor)
+
+For Sugar Syrup:
+
+1.5 cups of Sugar
+1.5 cups of Water
+A few Saffron strands (optional)
+1/2 teaspoon of Cardamom Powder
+1 teaspoon of Rose Water
+For Frying:
+
+Ghee or Oil for deep frying
+Instructions:
+
+Making Sugar Syrup:
+
+In a saucepan, add sugar and water. Bring it to a boil, stirring occasionally, until the sugar dissolves completely.
+
+Add saffron strands (if using) and cardamom powder to the syrup. Simmer the syrup for about 5-7 minutes until it slightly thickens. Keep it warm and set aside.
+
+Preparing Gulab Jamun Dough:
+
+In a mixing bowl, combine milk powder, all-purpose flour, baking soda, and ghee.
+
+Mix everything well. The mixture will resemble breadcrumbs.
+
+Gradually add a few tablespoons of milk and start kneading the mixture into a smooth and soft dough. The dough should be soft but not sticky. If it's too dry, add a little more milk, and if it's too sticky, add a bit more milk powder.
+
+Divide the dough into small equal-sized portions and roll them into smooth, crack-free balls. Ensure there are no cracks, or else the Gulab Jamuns may break while frying.
+
+Frying Gulab Jamun:
+
+Heat ghee or oil in a deep frying pan over medium-low heat. To check if the oil is ready, drop a small piece of dough into the oil; it should sizzle and rise slowly without changing color too quickly.
+
+Carefully slide a few Gulab Jamun balls into the hot oil. Fry them on low to medium-low heat, stirring gently and consistently to ensure even browning. Fry until they turn golden brown. This should take about 7-10 minutes.
+
+Remove the fried Gulab Jamun balls using a slotted spoon and drain excess oil.
+
+Soaking Gulab Jamun:
+
+Immediately place the hot Gulab Jamuns into the warm sugar syrup. Let them soak for at least 1-2 hours so that they absorb the syrup and become soft and juicy.
+
+Serve the Gulab Jamun warm or at room temperature. You can garnish them with chopped nuts if desired.
+
+Enjoy your homemade Gulab Jamun! They are best when served warm, and they make for a delightful dessert at festivals and special occasions."
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            tools:ignore="HardcodedText,TextViewEdits" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
